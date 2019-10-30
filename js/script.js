@@ -1,7 +1,12 @@
 
+var hamb = document.getElementById("hamburger");
+var nav = document.getElementById("navbar");
 
-
-
+hamb.addEventListener("click",function(e){
+  nav.classList.toggle("visibility");
+  console.log("bonjour");
+  e.stopPropagation();
+});
 
 var slideIndex = 1;
 showSlides(slideIndex);
