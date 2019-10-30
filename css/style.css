@@ -4,9 +4,26 @@
   box-sizing: border-box;
 }
 
+body{
+  background-image: linear-gradient(blue, red);
+}
+
+h1,h2,h3{
+  font-family: "Roboto", sans-serif;
+  font-weight: 600;
+  font-size: 1.5rem;
+}
+
+p{
+  font-family: "Staatliches",sans-serif;
+  letter-spacing: 1px;
+}
+
 header{
-  margin: 5%;
-  width: 90%;
+  margin-right: 0%;
+  padding: 30px;
+  /* width: 90%; */
+  background-color: grey;
 }
 
 header img{
@@ -49,16 +66,16 @@ li:first-child{
 }
 
 header h1{
-  font-size: 1rem;
   width: 300px;
 }
 
 .visibility{
   display: none;
+  transition: all 1s ease-out;
 }
 
 .cl_slider{
-  margin: auto 5%;
+  margin: 10% 5%;
 }
 
 /* Slideshow container */
@@ -157,6 +174,11 @@ header h1{
 .cl_presentation{
   margin-top: 5%;
   padding:0 5%;
+  margin-bottom: 10%;
+}
+
+.cl_presentation img{
+  margin-bottom: 10%;
 }
 
 .cl_presentation h2,.cl_presentation h3{
@@ -165,7 +187,7 @@ header h1{
 }
 
 .cl_actu{
-  margin: 10% 0%;
+  margin: 100% 0%;
 }
 
 .cl_actu h2{
@@ -224,4 +246,20 @@ footer img{
   background-color: purple;
   border-radius: 100%;
   margin-top:15%;
+}
+
+.cl_actu{
+  width: 90%;
+  margin: 0 auto;
+}
+
+.cl_actu h3{
+  text-align: center;
+  margin: 5% auto;
+}
+
+.cl_actu img{
+  display: block;
+  width: 100%;
+  margin-bottom: 10%;
 }
